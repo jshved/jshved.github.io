@@ -4,18 +4,11 @@ from tensorflow.keras.datasets import mnist
 import matplotlib.pyplot as plt
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
-print ("X_train.shape: {}".format(X_train.shape))
-print ("y_train.shape: {}".format(y_train.shape))
-print ("X_test.shape: {}".format(X_test.shape))
-print ("y_test.shape: {}".format(y_test.shape))
-
 
 X_train.shape: (60000, 28, 28)
 y_train.shape: (60000,)
 X_test.shape: (10000, 28, 28)
 y_test.shape: (10000,)
-
-
 
 plt.subplot(161)
 plt.imshow(X_train[3], cmap=plt.get_cmap('gray'))
@@ -29,7 +22,6 @@ plt.subplot(165)
 plt.imshow(X_train[0], cmap=plt.get_cmap('gray'))
 plt.subplot(166)
 plt.imshow(X_train[13], cmap=plt.get_cmap('gray'))
-
 
 X_train.shape
 
