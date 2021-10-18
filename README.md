@@ -1,2 +1,2 @@
 # MNISTWebpage
-jshved.github.io/tfjs.html
+https://jshved.github.io/tfjs.html
